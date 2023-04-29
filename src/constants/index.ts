@@ -35,7 +35,7 @@ export const ZERO_WIDTH_CHARSET = [
 ];
 
 export const BASE64_CHARSET =
-	'0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
+	'0123456789abcdefghijklmnopqrstuvwxyz'.split('');
 
 export const NOTION_API_TOKEN = process.env.NOTION_API_TOKEN!;
 
@@ -53,7 +53,7 @@ export const MAXIMUM_ZERO_WIDTH_SHORTEN_LENGTH = Number(
 );
 
 export const MAXIMUM_BASE64_SHORTEN_LENGTH = Number(
-	process.env.MAXIMUM_BASE64_SHORTEN_LENGTH ?? 7,
+	process.env.MAXIMUM_BASE64_SHORTEN_LENGTH ?? 2,
 );
 
 export const MAXIMUM_GENERATION_ATTEMPTS = Number(
